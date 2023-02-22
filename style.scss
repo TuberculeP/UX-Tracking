@@ -39,6 +39,11 @@ body{
       border-left: 5px solid #f17e01;
       padding: 20px;
       background-color: rgb(0, 0, 0, 0.03);
+      a{
+        color: #f17e01;
+        text-decoration: none;
+        font-weight: 600;
+      }
     }
     form{
       *{

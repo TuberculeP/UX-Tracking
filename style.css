@@ -41,6 +41,11 @@ body main p {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.03);
 }
+body main p a {
+  color: #f17e01;
+  text-decoration: none;
+  font-weight: 600;
+}
 body main form * {
   display: block;
   margin: 10px 0;
