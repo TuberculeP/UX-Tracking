@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/eagle-book" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/avenir-next-cyr" rel="stylesheet">
+    <title>IIM - Questionnaire</title>
+</head>
+<body>
+<header>
+    <img src="https://www.iim.fr/ecole-web/wp-content/uploads/2020/10/Logo-IIM-fd-blanc.png" alt="Logo IIM" draggable="false">
+    <h1>Questionnaire</h1>
+    <div></div>
+</header>
+<main>
+    <h2>Cours de <span class="cours">[COURS]</span></h2>
+    <p>En attendant le cours, nous vous proposons de poser vos questions, afin d'aborder la semaine de
+        <span class="cours">[COURS]</span> en toute sérénité.</p>
+    <form action="#">
+        <div>
+            <label for="email">Votre Email (obligatoire)</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="survey-know">Avez-vous déjà entendu parler de cette discipline ?</label>
+            <select name="survey-know" id="survey-know">
+                <option value="yes">Oui</option>
+                <option value="no" selected>Non</option>
+            </select>
+            <label for="survey-skill">À quel point pensez-vous la maîtriser ?</label>
+            <select name="survey-skill" id="survey-skill">
+                <option value="1">Je ne connais pas du tout</option>
+                <option value="2">Je connais un peu</option>
+                <option value="3">Je connais bien</option>
+                <option value="4">Je connais très bien</option>
+            </select>
+        </div>
+        <div>
+            <label for="question-hopes">Avez-vous des attendus sur ce cours ? (compétences, culture...)</label>
+            <textarea name="question-hopes" id="question-hopes" cols="20" rows="5"></textarea>
+            <label for="question-other">Des questions supplémentaires ?</label>
+            <textarea name="question-hopes" id="question-other" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

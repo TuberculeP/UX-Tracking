@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Avenir Next Cyr", sans-serif;
+}
+
+:root {
+  font-size: 15px;
+}
+
+body header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+body header img {
+  width: 80px;
+  display: block;
+}
+body header h1 {
+  user-select: none;
+  font-size: 2rem;
+  font-weight: 800;
+}
+body main {
+  max-width: 600px;
+  margin: 30px auto;
+}
+body main h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+body main p {
+  text-align: justify;
+  margin: 40px auto;
+  border-left: 5px solid #f17e01;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+body main form * {
+  display: block;
+  margin: 10px 0;
+}
+body main form > div {
+  margin: 25px;
+}
+body main form input[type=text], body main form input[type=email], body main form input[type=password] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+body main form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+body main form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+body main form button {
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  background-color: #f17e01;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  body header {
+    justify-content: space-between;
+  }
+  body header div {
+    width: 80px;
+  }
+  body main {
+    padding: 30px;
+  }
+  body main h2 {
+    font-size: 2rem;
+  }
+  body main p {
+    margin: 20px auto;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
